@@ -99,7 +99,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MKSGE\mks_grafunc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MKSGE\mks_grafunc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
