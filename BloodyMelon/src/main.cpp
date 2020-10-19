@@ -1,6 +1,12 @@
+//*********		include starts		*********
+	// VS include
+#include <iostream>
+	// OpenGL externals include
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <iostream>
+//*********		include ends		*********
+
+
 int main() {
 	// Initialize GLFW
 	if (glfwInit() == GLFW_FALSE) {
@@ -32,7 +38,5 @@ int main() {
 		// Present our image to windows
 		glfwSwapBuffers(window);
 	}
-
-
 	return 0;
 }
