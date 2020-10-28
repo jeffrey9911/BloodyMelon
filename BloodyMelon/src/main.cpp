@@ -26,7 +26,8 @@ int main() {
 		std::cout << "Failed to initialize Glad" << std::endl;
 		return 2;
 	}
-	// Display our GPU and OpenGL version
+
+	// test
 	std::cout << glGetString(GL_RENDERER) << std::endl;
 	std::cout << glGetString(GL_VERSION) << std::endl;
 	std::cout << mks_GE::genPath("src/res/test.txt");
