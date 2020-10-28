@@ -1,5 +1,7 @@
 //*********		include starts		*********
 	// VS include
+#include <MKSGE/mks_GE.h>
+#include <MKSGE/mks_grafunc.h>
 #include <iostream>
 	// OpenGL externals include
 #include <glad/glad.h>
@@ -27,6 +29,7 @@ int main() {
 	// Display our GPU and OpenGL version
 	std::cout << glGetString(GL_RENDERER) << std::endl;
 	std::cout << glGetString(GL_VERSION) << std::endl;
+	std::cout << mks_GE::genPath("src/res/test.txt");
 
 	// Run as long as the window is open
 	while (!glfwWindowShouldClose(window)) {

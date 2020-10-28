@@ -99,11 +99,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\MKSGE\mks_GE.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\MKSGE\mks_grafunc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MKSGE\mks_GE.h" />
     <ClInclude Include="src\MKSGE\mks_grafunc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
