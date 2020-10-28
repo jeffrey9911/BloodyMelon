@@ -14,6 +14,5 @@ class mks_GE
 	// *******************
 public:
 	static std::string genPath(std::string filePath);
-
 };
 

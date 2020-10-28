@@ -27,12 +27,18 @@
     <ClCompile Include="src\MKSGE\mks_GE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\MKSGE\mks_shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MKSGE\mks_grafunc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\MKSGE\mks_GE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MKSGE\mks_shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
