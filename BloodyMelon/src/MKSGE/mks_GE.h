@@ -3,6 +3,8 @@
 // ************
 #include <string>
 #include <cstdlib>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
 // Variables list
 // **************
@@ -14,5 +16,9 @@ class mks_GE
 	// *******************
 public:
 	static std::string genPath(std::string filePath);
+
+	// Input Processor per frame
+public:
+	void inputProcessPerLoop(GLFWwindow* window);
 };
 

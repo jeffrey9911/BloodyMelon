@@ -27,3 +27,31 @@ std::string mks_GE::genPath(std::string filePath)
 		return returning;
 	}
 }
+
+// Input Processor per loop
+// ************************
+void mks_GE::inputProcessPerLoop(GLFWwindow* window)
+{
+	
+	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) { // ESC down
+
+	}
+
+	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) { // W down
+
+	}
+
+	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) { // A down
+
+	}
+
+	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) { // S down
+
+	}
+
+	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) { // D down
+
+	}
+
+	
+}
