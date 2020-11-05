@@ -99,6 +99,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\MKSGE\mks_texture.cpp" />
+    <ClCompile Include="src\MKSGE\mks_mesh.cpp" />
+    <ClCompile Include="src\MKSGE\mks_model.cpp" />
     <ClCompile Include="src\MKSGE\mks_shader.cpp" />
     <ClCompile Include="src\MKSGE\mks_GE.cpp" />
     <ClCompile Include="src\glad.c" />
@@ -106,6 +109,9 @@
     <ClCompile Include="src\MKSGE\mks_grafunc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MKSGE\mks_texture.h" />
+    <ClInclude Include="src\MKSGE\mks_mesh.h" />
+    <ClInclude Include="src\MKSGE\mks_model.h" />
     <ClInclude Include="src\MKSGE\mks_shader.h" />
     <ClInclude Include="src\MKSGE\mks_GE.h" />
     <ClInclude Include="src\MKSGE\mks_grafunc.h" />
