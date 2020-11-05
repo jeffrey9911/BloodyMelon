@@ -99,6 +99,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="external\stb\stb_image.cpp" />
     <ClCompile Include="src\MKSGE\mks_texture.cpp" />
     <ClCompile Include="src\MKSGE\mks_mesh.cpp" />
     <ClCompile Include="src\MKSGE\mks_model.cpp" />
@@ -109,6 +110,7 @@
     <ClCompile Include="src\MKSGE\mks_grafunc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="external\stb\stb_image.h" />
     <ClInclude Include="src\MKSGE\mks_texture.h" />
     <ClInclude Include="src\MKSGE\mks_mesh.h" />
     <ClInclude Include="src\MKSGE\mks_model.h" />

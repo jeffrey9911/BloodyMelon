@@ -60,9 +60,9 @@ void mks_mesh::meshSetup()
 
 	glBindVertexArray(VAO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	glBindBuffer(GL_ARRAY_BUFFER, EBO);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, meshVertices.size() * sizeof(struVertex), &meshVertices[0], GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, meshVertices.size() * sizeof(struVertex), &meshVertices[0], GL_STATIC_DRAW);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, meshIndices.size() * sizeof(GLuint), &meshIndices, GL_STATIC_DRAW);
 
 	glEnableVertexAttribArray(0);
